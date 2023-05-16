@@ -2,83 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
-  <title>Frontend Mentor | Equalizer landing page</title>
+  <title>Frontend mentor | Equalizer landing page</title>
 </head>
 <body>
-
-  <header class="logo">
-    <div class="logo__image"></div>
+  <header>
+    <div class="logo"></div>
   </header>
-
-  <h1 class="hero__heading">
-    We make your music sound extraordinary.
-  </h1>
-
-  <p class="hero__body">
-    A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!
-  </p>
-
-  <div class="illustration"></div>
-
-
-
-
-
-  <article class="pricing">
-
-    <h2 class="pricing__heading">
-      Premium EQ
-    </h2>
-
-    <p class="pricing__body">
-      Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!
+  <section class="hero">
+    <h1 class="hero__heading">
+      We make your sound extraordinary.
+    </h1>
+    <p class="hero__body">
+      A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!
     </p>
-
-    <p class="pricing__price">
-      $4 / month
-    </p>
-
-    <a class="cta cta--primary" href="">
-      iOS Download
-    </a>
-
-    <a class="cta cta--secondary" href="">
-      Android Download
-    </a>
-
-  </article>
+  </section>
 
 
 
 
-
-  <footer>
-
-    <div class="logo">
-      <div class="logo__image"></div>
-    </div>
-
-    <p>
-      All rights reserved C Equalizer 2021
-    </p>
-
-    <p>
-      Have any problems? Contact us via social media or email us at <span>equalizer@example.com</span>
-    </p>
-
-    <section class="socmeds">
-      <div class="socmed"></div>
-      <div class="socmed"></div>
-      <div class="socmed"></div>
-    </section>
-
-  </footer>
-
+  <section class="pricing-container">
+    <div class="pricing__illustration"></div>
+    <article class="pricing">
+      <h2 class="pricing__heading">
+        Premium EQ
+      </h2>
+      <p class="pricing__body">
+        Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!
+      </p>
+      <p class="pricing__price">
+        <span class="price-amount">$4</span> / month
+      </p>
+      <a class="cta cta--primary pricing__cta-ios" href="">
+        <div class="apple-logo"></div>
+        iOS Download
+      </a>
+      <a class="cta cta--secondary pricing__cta-android" href="">
+        <div class="android-logo"></div>
+        Android Download
+      </a>
+    </article>
+  </section>
 </body>
 </html>
